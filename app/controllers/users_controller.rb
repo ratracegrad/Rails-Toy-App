@@ -12,7 +12,7 @@ class UsersController < ApplicationController
   def show
 
     # get users first micropost
-    @micropost = @user.microposts.first
+    #@micropost = @user.microposts.first
   end
 
   # GET /users/new
